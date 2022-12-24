@@ -1,0 +1,44 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+
+h3{
+    text-align: center;
+    font-size: 50px;
+}
+
+.box{
+    margin-left: 280px;
+    border: solid red 2px;
+}
+.employee{
+    display: flex;
+    width: 800px;
+    border: rgb(171, 171, 171) solid 2px;
+    /* justify-content: center; */
+    padding: 20px;
+    margin-left: 280px;
+    margin-top: 20px;
+    justify-content: space-around;
+    background-color: rgb(167, 166, 166);
+    border-radius: 15px;
+}
+
+.first{
+    /* margin-left: 120px; */
+    font-weight: 600;
+}
+.mid{
+    /* margin-left: 120px; */
+    font-weight: 600;
+}
+.end{
+    /* margin-left: 120px; */
+    font-weight: 600;
+}
+
+.firstfirst{
+    color: brown;
+}

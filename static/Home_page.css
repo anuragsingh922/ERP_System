@@ -1,0 +1,216 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgba(237, 237, 237, 0.62);
+    z-index: 20;
+
+}
+nav{
+    display: flex;
+    height: 70px;
+    align-items: center;
+    background-color: rgb(100, 129, 130);
+}
+
+.aaa{
+    font-family: Impact, Haettenschweiler,;
+    margin-left: 20px;
+    color: white;
+    font-size: 25px;
+}
+
+nav a{
+    margin-left: 40px;
+    text-decoration: none;
+    color: rgb(25, 22, 22);
+    font-size: 25px;
+    font-family: Impact, Haettenschweiler,;
+}
+
+nav a:hover{
+    color: rgb(67, 66, 66);
+}
+
+.diffwork{
+    display: flex;
+    /* height: 100vh; */
+}
+
+.afternav h3{
+    margin-top: 40px;
+    margin-bottom: 50px;
+    margin-left: 60px;
+    font-size: 25px;
+    font-family: cursive;
+    color: brown;
+}
+
+.afternav ul{
+    margin: 10px 0px;
+    margin-left: 60px;
+    list-style: none;
+}
+
+.afternavli{
+    font-size: 25px;
+    margin-bottom: 30px;
+}
+
+.afternavli a{
+    text-decoration: none;
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.raw h3{
+    margin-top: 40px;
+    margin-bottom: 50px;
+    margin-left: 60px;
+    font-size: 25px;
+    font-family: cursive;
+    color: brown;
+}
+
+.raw ul{
+    margin: 10px 0px;
+    margin-left: 60px;
+    list-style: none;
+}
+
+.raw a{
+    text-decoration: none;
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.rawli{
+    font-size: 25px;
+    margin-bottom: 30px;
+}
+
+
+.product h3{
+    margin-top: 40px;
+    margin-bottom: 50px;
+    margin-left: 60px;
+    font-size: 25px;
+    font-family: cursive;
+    color: brown;
+}
+
+.product ul{
+    margin: 10px 0px;
+    margin-left: 60px;
+    list-style: none;
+}
+
+
+.product a{
+    text-decoration: none;
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.productli{
+    font-size: 25px;
+    margin-bottom: 30px;
+}
+
+
+.account h3{
+    margin-top: 40px;
+    margin-bottom: 50px;
+    margin-left: 60px;
+    font-size: 25px;
+    font-family: cursive;
+    color: brown;
+}
+
+.account ul{
+    margin: 10px 0px;
+    margin-left: 60px;
+    list-style: none;
+}
+
+
+.account a{
+    text-decoration: none;
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.accountli{
+    font-size: 25px;
+    margin-bottom: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+.photos{
+    display: flex;  
+    height: 600px;
+    margin-top: 50px;
+    justify-content: space-between;
+}
+
+
+
+
+
+.anurag{
+    margin-left: 150px;
+    margin-top: 40px;
+    border-radius: 10px;
+}
+.anshu{
+    margin-top: 40px;
+    border-radius: 10px;
+}
+.aditya{
+    margin-right: 150px;
+    margin-top: 40px;
+    border-radius: 10px;
+}
+
+
+.anurag img{
+    border-radius: 10px;
+    width: 250px;
+    height:300px;
+}
+.anshu img{
+    border-radius: 10px;
+    width: 250px;
+    height:300px;
+}
+.aditya img{
+    border-radius: 10px;
+    width: 250px;
+    height:300px;
+}
+
+.name{
+    text-align: center;
+    font-size: 25px;
+}
+
+.member{
+    text-align: center;
+    font-size: 70px;
+    margin-top: 150px;
+}
+
+
+
+div ul li a:hover{
+    color: rgb(77, 70, 70);
+    
+}

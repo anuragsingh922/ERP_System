@@ -1,0 +1,64 @@
+body{
+    margin: 0;
+    padding: 0;
+    
+    background: #BDC3C7; 
+    background: -webkit-linear-gradient(to left, #BDC3C7, #2C3E50); 
+    background: linear-gradient(to left, #BDC3C7, #2C3E50);
+    font-family: 'Source Sans Pro', sans-serif;
+    /*background: url(../Waste/cf9f129ee6428b862009fb67ecace81e.jpg) no-repeat fixed center;
+    background-size: cover;
+    background-blend-mode: darken;
+    background-color: black; */
+}
+
+.companyname{
+    display: flex;
+    justify-content: center;
+    color: rgba(220, 57, 57, 0.86);
+    /* font-family: cursive; */
+    margin-top: 20px;
+    /* padding-top: 20px; */
+    font-size: 80px; 
+}
+
+.employeid{
+    text-align: center;
+    background-color: lightyellow;
+    margin: auto 500px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+}
+
+.employeid select{
+    margin: 0% 12%;
+
+}
+
+.employeid label{
+    margin: 20px;
+}
+
+.employeid input{
+    margin: 0% 8%;
+}
+
+button{
+    background: transparent;
+    border-radius: 10px;
+    margin: 30px 200px;
+    color: black;
+    font-size: large;
+}
+
+/*.btn:hover{
+    background:transparent ;
+    color: red;
+}*/
+
+.box{
+    background-color: red;
+    height: 20px;
+    width: 40px;
+}

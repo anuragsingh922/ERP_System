@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Attendance</title>
+    //- <link rel="stylesheet" href="../static/attendance.css">
+    <script src="../static/re.js"></script>
+    style 
+        include ../static/attendance.css
+</head>
+<body>
+    <h3>Mark Attendance</h3>
+    <div class="main">
+        <div class="box">
+            <form method="POST" action="/markattendance.pug">
+                | Time : <span class="timee" id="timee"></span><br><br>
+                | Password : <input type="text" name="" id=""><br><br>
+                <button class="btn">Mark</button>
+                
+                <footer>
+                    | Make sure your face is clearly visible.
+                </footer>
+                
+            </form>
+        </div>
+        <div class="box1"></div>
+    </div>
+    <script type="text/javascript" src="../static/markattendancejavascript.js"></script>
+</body>
+</html>

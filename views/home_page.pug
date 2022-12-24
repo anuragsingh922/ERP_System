@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Home</title>
+    //- <link rel="stylesheet" href="../../Practicum_30/static/Home_page.css" type="text/css", charset="UTF-8">
+    <script src="../static/homepagescript.js"></script>
+    style 
+        include ../static/Home_page.css
+</head>
+<body>
+    <nav class="navv">
+        <div class="aaa" ><a href="Login_Page.pug">AAA</a></div>
+        <div><a href="markattendance.pug">Mark Attendance</a></div>
+        <div><a href="increment.pug">Increments</a></div>
+        <div><a href="holidays.pug">Holidays</a></div>
+    </nav>
+
+<div class="diffwork" id="diffwork">
+    <div class="afternav">
+        <h3>Employee Management</h3>
+        <ul class="afternavul">
+            <li class="afternavli"><a href="employeeattendance.pug">Attendance</a> </li>
+            <li class="afternavli"><a href="salarylist.pug">Salary</a> </li>
+            <li class="afternavli"><a href="employeedetail.pug">Employee Details</a> </li>
+            <li class="afternavli"><a href="updateemployeedetails.pug">Update Details</a> </li>
+        </ul>
+    </div>
+    <div class="raw" id="raw">
+        <h3>Raw Material Management</h3>
+        <ul class="rawul" mousehover="rawhide()">
+            <li class="rawli"><a href="addmaterial.pug" hover="rawhide()">Add Material</a></li>
+            <li class="rawli"><a href="material_list.pug" onclick="rawhide()">Material List</a></li>
+            <li class="rawli"><a href="materialresheduling.pug" onclick="rawhide()">Material Resheduling</a></li>
+            <li class="rawli"><a href="updatemateriallist.pug" onclick="rawhide()">Update Material List</a></li>
+        </ul>
+    </div>
+    
+    
+    <div class="product" id="product">
+        <h3>Product Management</h3>
+        <ul class="productul">
+            <li class="productli"><a href="product_list.pug">Product List</a></li>
+            <li class="productli"><a href="updateprice.pug">Update Price</a></li>
+        </ul>
+    </div>
+   
+    <div class="account" id="account">
+        <h3>Account Management</h3>
+        <ul class="accountul">
+            <li class="accountli"><a href="allTransactions.pug">All Transactions</a></li>
+            <li class="accountli"><a href="unpaidtrancitions.pug">Unpaid Transactions</a></li>
+        </ul>
+    </div>
+</div>
+
+<div class="member">Team Members</div>
+<div class="photos">
+    <div class="anurag">
+        <!-- <a href=""><img src="https://drive.google.com/file/d/1GdQ65kvWyBHoUfR_EkgS6tickCT1KK1I/view?usp=share_link" alt="">Anurag</a> -->
+        <img src="../static/img/Anurag1.jpg" alt="" width="400px">
+        <div class="name">Anurag</div>
+    </div>
+    <div class="anshu">
+        <img src="../static/img/Anshu1.jpeg" alt="" width="400px">
+        <div class="name">Anshu Dayma</div>
+        
+    </div>
+    <div class="aditya"><img src="../static/img/Aditya1.jpeg" alt="" width="400px">
+        <div class="name">Aditya Singh Bisht</div>
+    </div>
+</div>
+
+</body>
+</html>
