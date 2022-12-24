@@ -139,19 +139,19 @@ app.post("/", (req, res) => {
             res.status(200).render("home_page.pug");
         } 
         else {
-            // const user = new Practicum({
-            //     post,
-            //     email,
-            //     password
-            // })
-            // user.save(err => {
-            //     if (err) {
-            //         res.send(err)
-            //     } else {
-                    // res.send({ message: "Successfully Registered, Please login now." })
-            //     }
-            // })
-            res.send({ message: "Incorrect Data." })
+            const user = new Practicum({
+                post,
+                email,
+                password
+            })
+            user.save(err => {
+                if (err) {
+                    res.send(err)
+                } else {
+                    res.send({ message: "Successfully Registered, Please login now." })
+                }
+            })
+//             res.send({ message: "Incorrect Data." })
         }
     })
 })
